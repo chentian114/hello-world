@@ -1,18 +1,18 @@
 ### hello-world
     + my first project
 
-### ×÷Õß
-    + *³ÂÌï(chentian)*
-    + ÖĞ¹ú
+### ä½œè€…
+    + é™ˆç”°(chentian)
+    + ä¸­å›½(china)
 
-### ¿ª·¢ÓïÑÔ
+### å¼€å‘è¯­è¨€
     + java
 
-### ¿ª·¢¹¤¾ß
+### å¼€å‘å·¥å…·
     + IDEA
 
-### ºËĞÄ´úÂë
-    + ¹¤³ÌhelloworldºËĞÄ´úÂëÎª
+### æ ¸å¿ƒä»£ç 
+    + å·¥ç¨‹helloworldæ ¸å¿ƒä»£ç ä¸º
     ```
         System.out.println("hello World! I'm chentian!");
     ```
