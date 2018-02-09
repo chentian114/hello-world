@@ -1,19 +1,20 @@
 ### hello-world
-    + my first project
+           + my first project
 
-### ×÷Õß
-    + ³ÂÌï(ChenTian)
-    + ÖĞ¹ú(China)
+### ä½œè€…
+   + é™ˆç”°(ChenTian)
+   + ä¸­å›½(China)
+   + chentian114@sina.com
 
-### ¿ª·¢ÓïÑÔ
-    + java
-      - jdk 1.8
+### å¼€å‘è¯­è¨€
+   + java
+     - jdk 1.8
 
-### ¿ª·¢¹¤¾ß
-    + IDEA
+### å¼€å‘å·¥å…·
+   + IDEA
 
-### ºËĞÄ´úÂë
-    + ¹¤³ÌhelloworldºËĞÄ´úÂëÎª
-    ```
-        System.out.println("hello World! I'm chentian!");
-    ```
+### æ ¸å¿ƒä»£ç 
+   + å·¥ç¨‹helloworldæ ¸å¿ƒä»£ç ä¸º
+   ```
+       System.out.println("hello World! I'm chentian!");
+   ```
