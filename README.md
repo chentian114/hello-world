@@ -1,18 +1,18 @@
 ### hello-world
-    * my first project
+    + my first project
 
 ### 作者
-    * *陈田(chentian)*
-    * 中国
+    + *陈田(chentian)*
+    + 中国
 
 ### 开发语言
-    java
+    + java
 
 ### 开发工具
-    IDEA
+    + IDEA
 
 ### 核心代码
-    * 工程helloworld核心代码为
-    ...
+    + 工程helloworld核心代码为
+    ```
         System.out.println("hello World! I'm chentian!");
-    ...
+    ```
