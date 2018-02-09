@@ -2,8 +2,8 @@
     + my first project
 
 ### 作者
-    + 陈田(chentian)
-    + 中国(china)
+    + 陈田(ChenTian)
+    + 中国(China)
 
 ### 开发语言
     + java
