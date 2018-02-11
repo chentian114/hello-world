@@ -139,4 +139,34 @@
             - 父线程与子线程之间的生命周期没有必然的联系。
             - 工作者线程：习惯上，我们也称某些子线程为工作者线程或后台线程。通常是其父线程创建来用于专门负责某项特定任务的执行的。
         - 1.6 线程的生命周期
-            ![image](https://github.com/chentian114/hello-world/tree/master/thread-demo1/images/1-ThreadLifecycle.png?raw=true)
+            [image](https://github.com/chentian114/hello-world/tree/master/thread-demo1/images/1-ThreadLifecycle.png?raw=true)
+            - Thread.State定义的线程状态
+                1. NEW：一个已创建而未启动的线程处理该状态。一个线程只可能有一次处理该状态。
+                2. RUNNABLE：该状态是一个复合状态。它包括两个子状态：READY和RUNNING。
+                    - READY：表示处于该状态的线程可以被线程调度器进行调度而使之处理RUNNING状态。
+                    - RUNNING：表示处于该状态的线程正在运行。
+                    - 执行Thread.yield()的线程，其状态可能会从RUNNING转换为READY。
+                    - 活跃线程：处理READ状态的线程。
+                3. BLOCKED：相应的线程会处于BLOCKED - 线程可以转换为RUNNABLE:
+                    - 一个线程发起一个阻塞式I/O操作时 - 当阻塞式I/O操作完成后
+                    - 申请一个由其它线程持有的独占资源（锁）时 - 线程获得其申请的资源
+                4. WAITING：一个线程执行了某些特定方法之后就会处理这种等待其他线程执行另外一些特定操作的状态。
+                    - Object.wait() - Object.notify()/notifyAll()
+                    - Thread.join() - 等待的线程处理完成
+                    - LockSupport.park(Object) - LockSupport.uppark(Object)
+                5. TIMED_WAITING：该状态的线程并非无限制地等待其它线程执行特定操作，而是处于带有时间限制的等待状态。
+                6. TERMINATED：已经执行结束的线程处于该状态。Thread.run()正常返回或者由于抛出异常而提前终止。
+                    - 一个线程在其整个生命周期中，只可能有一次处理NEW状态和TERMINATED状态。
+        - 1.9 多线程编程的优势和风险
+            - 多线程编程的优势
+                1. 提高系统的吞吐率
+                2. 提高响应性
+                3. 充分利用多核处理器资源
+                4. 最小化对系统资源的使用
+                5. 简化程序的结构
+            - 多线程编程的问题与风险
+                1. 线程安全问题
+                2. 线程活性问题
+                3. 上下文切换
+                4. 可靠性
+            
