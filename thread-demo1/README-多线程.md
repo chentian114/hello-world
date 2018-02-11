@@ -139,4 +139,4 @@
             - 父线程与子线程之间的生命周期没有必然的联系。
             - 工作者线程：习惯上，我们也称某些子线程为工作者线程或后台线程。通常是其父线程创建来用于专门负责某项特定任务的执行的。
         - 1.6 线程的生命周期
-            
+            [image](https://github.com/chentian114/hello-world/tree/master/thread-demo1/images/1-线程的生命周期状态.png)
